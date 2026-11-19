@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url('/fonts/libre-baskerville/LibreBaskerville-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url('/fonts/libre-baskerville/LibreBaskerville-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat/Montserrat-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/montserrat/Montserrat-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --cor-texto: #6b6375;
+  --cor-titulo: #08060d;
+  --cor-fundo: #fff;
+  --cor-borda: #e5e4e7;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', system-ui, sans-serif;
+  font-weight: 400;
+  color: var(--cor-texto);
+  background: var(--cor-fundo);
+  overflow-x: hidden;
+}
+
+/* Classes em português */
+.fonte-titulo {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.fonte-corpo {
+  font-family: 'Montserrat', system-ui, sans-serif;
+}
+
+.peso-regular {
+  font-weight: 400;
+}
+
+.peso-negrito {
+  font-weight: 700;
+}
+
+.peso-semi-negrito {
+  font-weight: 600;
+}
+
