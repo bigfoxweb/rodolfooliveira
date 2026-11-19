@@ -1,14 +1,15 @@
-import { useEffect, useRef } from 'react'
-import { useLenis } from './hooks/useLenis.jsx'
 import Hero from './components/Hero.jsx'
+import Manifesto from './components/Manifesto.jsx'
+import { useLenis } from './hooks/useLenis.jsx'
 
 function App() {
-  const lenis = useLenis({ lerp: 0.1 })
+  useLenis({ lerp: 0.1 })
 
   return (
     <div className="min-h-screen bg-[#fff] text-[#6b6375] font-sans">
       <main>
         <Hero />
+        <Manifesto />
       </main>
     </div>
   )
