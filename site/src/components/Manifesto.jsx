@@ -46,7 +46,7 @@ useEffect(() => {
 }, [])
 
   return (
-    <section ref={secaoRef} className="relative w-full bg-[#fff]">
+    <section ref={secaoRef} className="relative w-full bg-[#fff]" id="manifesto">
       <div className="mx-auto w-full max-w-7xl px-6 py-20 md:px-12 md:py-28">
         <div className="grid gap-10 md:grid-cols-12 md:gap-16">
           {/* Imagem à esquerda */}

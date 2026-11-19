@@ -51,7 +51,7 @@ export default function Localidade() {
   return (
     <section
       ref={secaoRef}
-      className="relative w-full overflow-hidden bg-[#121212] text-white"
+      className="relative w-full overflow-hidden bg-[#121212] text-white" id="seo-local"
     >
       <div className="mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-14 px-6 py-20 md:grid-cols-12 md:gap-16 md:px-12 md:py-28">
 
@@ -69,7 +69,7 @@ export default function Localidade() {
 
           <h2
             data-anima
-            className="fonte-titulo peso-negrito text-center text-3xl leading-[1.15] text-[#e5e4e7] md:text-left md:text-5xl"
+            className="fonte-titulo peso-negrito text-center leading-[1.15] text-[#e5e4e7] text-5xl md:text-left md:text-5xl"
           >
             Lentes de contato dental em São Paulo: comece pela avaliação.
           </h2>

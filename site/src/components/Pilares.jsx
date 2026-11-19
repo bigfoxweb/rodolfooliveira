@@ -72,6 +72,7 @@ export default function TresPilares() {
   return (
     <section
       ref={secaoRef}
+      id="pilares"
       className="relative w-full bg-[#f5f3ef]"
       style={{
          backgroundImage:

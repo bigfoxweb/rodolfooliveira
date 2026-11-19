@@ -27,6 +27,7 @@ export default function Hero() {
     <section
       ref={secaoRef}
       className="relative w-full overflow-hidden bg-[#040405] text-white"
+      id="hero"
     >
       {/* Fundo */}
       <img
