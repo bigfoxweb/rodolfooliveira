@@ -1,5 +1,6 @@
 import Hero from './components/Hero.jsx'
 import Manifesto from './components/Manifesto.jsx'
+import Pilares from './components/Pilares.jsx'
 import { useLenis } from './hooks/useLenis.jsx'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Hero />
         <Manifesto />
+        <Pilares />
       </main>
     </div>
   )
