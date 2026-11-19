@@ -73,6 +73,11 @@ export default function TresPilares() {
     <section
       ref={secaoRef}
       className="relative w-full bg-[#f5f3ef]"
+      style={{
+         backgroundImage:
+          'linear-gradient(#efefef 1px, transparent 1px), linear-gradient(90deg, #efefef 1px, transparent 1px)',
+         backgroundSize: '4px 4px',
+       }}
     >
       <div className="mx-auto w-full max-w-7xl px-6 py-20 md:px-12 md:py-28">
         <div className="mb-14 text-center">

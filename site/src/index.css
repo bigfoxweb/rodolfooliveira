@@ -49,11 +49,19 @@
 }
 
 :root {
-  --cor-texto: #6b6375;
+  --base-path: "/";
+    --cor-texto: #6b6375;
   --cor-titulo: #08060d;
   --cor-fundo: #fff;
   --cor-borda: #e5e4e7;
 }
+
+@media all {
+  :root {
+    --base-path: "/";
+  }
+}
+
 
 body {
   margin: 0;

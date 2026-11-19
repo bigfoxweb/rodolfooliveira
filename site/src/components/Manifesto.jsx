@@ -56,7 +56,7 @@ useEffect(() => {
           >
             <img
               data-anima
-              src="/img/manifesto.avif"
+              src="img/manifesto.avif"
               alt="Manifesto - Espaço Rodolfo Oliveira"
               className="h-full w-full rounded-2xl object-cover"
             />

@@ -30,7 +30,7 @@ export default function Hero() {
     >
       {/* Fundo */}
       <img
-        src="/img/hero-fundo.avif"
+        src="img/hero-fundo.avif"
         alt=""
         fetchPriority="high"
         decoding="async"
@@ -50,7 +50,7 @@ export default function Hero() {
             <div className="inline-flex flex-col items-center">
               <img
                 data-anima
-                src="/img/logo-topo.webp"
+                src="img/logo-topo.webp"
                 alt="Odontologia Estética - Espaço Rodolfo Oliveira"
                 className="mb-6 h-auto w-32 md:w-40"
               />
@@ -118,11 +118,11 @@ export default function Hero() {
             <picture>
               <source
                 media="(min-width: 768px)"
-                srcSet="/img/hero-desktop.avif"
+                srcSet="img/hero-desktop.avif"
                 type="image/avif"
               />
               <img
-                src="/img/hero-mobile.avif"
+                src="img/hero-mobile.avif"
                 alt="Detalhe do trabalho em lentes de contato dental"
                 decoding="async"
                 className="relative aspect-[4/5] w-full rounded-3xl object-cover md:aspect-auto md:h-[78svh] md:max-h-[720px]"
