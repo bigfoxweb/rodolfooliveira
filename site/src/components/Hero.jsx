@@ -136,7 +136,7 @@ export default function Hero() {
           <div className="flex flex-col items-center gap-4 text-center">
             <h2
               data-anima
-              className="fonte-titulo peso-negrito text-3xl text-white md:text-4xl"
+              className="fonte-titulo peso-negrito text-3xl text-[#ac8b4e] md:text-4xl"
             >
               Sorrisos com identidade
             </h2>

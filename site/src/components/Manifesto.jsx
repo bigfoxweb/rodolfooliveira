@@ -52,36 +52,40 @@ useEffect(() => {
           {/* Imagem à esquerda */}
           <div
             data-anima
-            className="md:col-span-4 relative aspect-[3/4] md:aspect-auto md:h-[600px]"
+            className="relative aspect-square md:col-span-4"
           >
             <img
               data-anima
-              src="/img/hero-desktop.avif"
+              src="/img/manifesto.avif"
               alt="Manifesto - Espaço Rodolfo Oliveira"
-              className="w-full h-full object-cover rounded-2xl"
+              className="h-full w-full rounded-2xl object-cover"
             />
           </div>
 
           {/* Texto à direita: label + título + textos */}
           <div className="md:col-span-8 flex flex-col gap-6">
             <span
-              data-anima
-              className="fonte-corpo peso-semi-negrito inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-[#ac8b4e]"
-            >
-              <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-[#ac8b4e]" />
-              Nosso manifesto
-            </span>
+          data-anima
+          className="fonte-corpo peso-semi-negrito relative mx-auto inline-flex w-fit pb-2 text-xs uppercase tracking-[0.2em] text-[#ac8b4e] md:mx-0"
+        >
+          Nosso manifesto
 
+          <span
+            aria-hidden="true"
+            className="absolute bottom-0 left-1/2 h-[2px] w-1/2 -translate-x-1/2 bg-[#333333]"
+          />
+        </span>
             <h2
               data-anima
-              className="fonte-titulo peso-negrito text-3xl leading-[1.15] text-[#08060d] md:text-5xl"
+              className="fonte-titulo peso-negrito text-5xl leading-[1.15] text-[#333333] text-center md:text-left"
             >
-              Aqui, o sorriso não é padronizado. É planejado.
+              Aqui, o sorriso não é padronizado.<br/>
+              É planejado.
             </h2>
 
             <p
               data-anima
-              className="fonte-corpo peso-regular max-w-2xl text-base leading-relaxed text-[#6b6375] md:text-lg"
+              className="fonte-corpo peso-regular mx-auto max-w-2xl text-center text-[17px] leading-relaxed text-[#6b6375] md:mx-0 md:text-left md:text-lg"
             >
               O trabalho do Dr. Rodolfo parte de uma ideia simples: cada sorriso
               tem a sua história e merece um planejamento feito só para ele.
@@ -91,12 +95,13 @@ useEffect(() => {
 
             <p
               data-anima
-              className="fonte-corpo peso-regular max-w-2xl text-base leading-relaxed text-[#6b6375] md:text-lg"
+              className="fonte-corpo peso-regular mx-auto max-w-2xl text-center text-[17px] leading-relaxed text-[#6b6375] md:mx-0 md:text-left md:text-lg"
             >
               Antes de qualquer decisão, escutamos o que você deseja,
               avaliamos a saúde dos seus dentes e conversamos com honestidade
               sobre o que é possível e o que não é.
             </p>
+            
           </div>
         </div>
       </div>
